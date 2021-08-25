@@ -1,0 +1,22 @@
+/*Estilo*/
+body {
+    text-align: center;
+}
+
+.errada, .errada2, .errada3, .certa4 {
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    width: 100%;
+    height: 60px;
+    font-size: larger;
+}
+
+.certa, .certa2, .certa3, .errada4 {
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    width: 100%;
+    height: 60px;
+    font-size: larger;
+}
