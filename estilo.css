@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 
-.errada, .errada2, .errada3, .errada4, .certa, .certa2, .certa3, .certa4 {
+.errada, .certa {
     background-color: blue;
     color: white;
     border-radius: 4px;
