@@ -19,7 +19,18 @@ function avaliar(resposta, elemento, pergunta = 0) {
     document.getElementsByClassName('errada')[elemento[2]].style = 'background-color: red;'
     document.getElementsByClassName('certa')[elemento[3]].style = 'background-color: green;'
 
-    if(pergunta === "ultima")
-        document.write('Você errou ' + erros+ ' Vezes')
+    if(pergunta === "ultima") {
+        document.write('Você errou ' + erros+ ' de 4 perguntas <br>')
+
+        if (erros <= 1) {
+            document.write('Você foi muito bem!!!')
+        }
+        else if(erros == 2) {
+            document.write('Nada Mal')
+        }
+        else {
+            document.write('Mais sorte na próxima')
+        }
+    }
 }
 
