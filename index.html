@@ -8,36 +8,39 @@
     <title>QUIZ GAME</title>
 </head>
 <body>
-    <script src="script.js"></script>
+    <script src="script.js">
+       
+
+    </script>
 
     <!--Perguntas e botões-->
     <h1>Em que ano foi cirado o HTML?</h1>
-
-    <button onclick="avaliar(false)" class="errada">2001</button>
-    <button onclick="avaliar(false)"class="errada">1981</button>
-    <button onclick="avaliar(false)"class="errada">1999</button>
-    <button onclick="avaliar(true)"class="certa">1991</button>
+    
+    <button onclick="avaliar(false, elementos1)" class="errada">2001</button>
+    <button onclick="avaliar(false, elementos1)"class="errada">1981</button>
+    <button onclick="avaliar(false, elementos1)"class="errada">1999</button>
+    <button onclick="avaliar(true, elementos1)"class="certa">1991</button>
 
     <h1>Quem criou a linguagem de programação 'Python'?</h1>
-
-    <button onclick="avaliar2(false)" class="errada2">James Gosling</button>
-    <button onclick="avaliar2(false)" class="errada2">Rasmus Lerdorf</button>
-    <button onclick="avaliar2(true)" class="certa2">Guido van Rossum</button>
-    <button onclick="avaliar2(false)" class="errada2">Dennis Ritchie</button>
+    
+    <button onclick="avaliar(false, elementos2)" class="errada">James Gosling</button>
+    <button onclick="avaliar(false, elementos2)" class="errada">Rasmus Lerdorf</button>
+    <button onclick="avaliar(true, elementos2)" class="certa">Guido van Rossum</button>
+    <button onclick="avaliar(false, elementos2)" class="errada">Dennis Ritchie</button>
 
     <h1>Quem criou a Programação Orientada a Objeto?</h1>
-
-    <button onclick="avaliar3(true)"class="certa3">Alan Kay</button>
-    <button onclick="avaliar3(false)" class="errada3">Ada Lovelace</button>
-    <button onclick="avaliar3(false)" class="errada3">Charles Babbage</button>
-    <button onclick="avaliar3(false)" class="errada3">Dennis Ritchie</button>
+    
+    <button onclick="avaliar(true, elementos3)"class="certa">Alan Kay</button>
+    <button onclick="avaliar(false, elementos3)" class="errada">Ada Lovelace</button>
+    <button onclick="avaliar(false, elementos3)" class="errada">Charles Babbage</button>
+    <button onclick="avaliar(false, elementos3)" class="errada">Dennis Ritchie</button>
 
     <h1>Em que tecnologias esse QUIZ foi desenvolvido?</h1>
-
-    <button onclick="avaliar4(false)"class="errada4">Java, Php, C#</button>
-    <button onclick="avaliar4(false)" class="errada4">Python, Runy, C++</button>
-    <button onclick="avaliar4(true)" class="certa4">Html5, Css3, Javascript</button>
-    <button onclick="avaliar4(false)" class="errada4">Wordpress</button>
+    
+    <button onclick="avaliar(false, elementos4, ultima)"class="errada">Java, Php, C#</button>
+    <button onclick="avaliar(false, elementos4, ultima)" class="errada">Python, Runy, C++</button>
+    <button onclick="avaliar(true, elementos4, ultima)" class="certa">Html5, Css3, Javascript</button>
+    <button onclick="avaliar(false, elementos4, ultima)" class="errada">Wordpress</button>
 
 </body>
 </html>
